@@ -1,0 +1,19 @@
+Ejercicio 5.
+
+a. ¿Cuál es el atributo que sirve para “abrir” una pequeña ventana amarilla (tooltip) cuando sitúa el ratón el usuario sobre un componente y sirve de modo de ayuda/indicación al usuario?
+
+El atributo es title.
+
+
+
+
+b. ¿Es span etiqueta tipo bloque o línea?
+
+La etiqueta <span> es de tipo línea (inline).
+
+
+
+
+c. ¿Con qué etiqueta colocamos el título de la ventana y en qué zona de la web se realiza?
+
+Usamos la etiqueta <title>, y se coloca dentro de la sección <head> del documento HTML.

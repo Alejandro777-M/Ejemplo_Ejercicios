@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="post"> <!-- method=post para que NO se vean los datos en la URL -->
+        <fieldset>
+            <legend>Datos</legend>
+
+            <!-- Elemento desplegable obligatorio -->
+            <label for="opcion">Elige un número:</label>
+            <select id="opcion" name="opcion" required>
+            <option value="">--Selecciona--</option>
+            <option value="op1">1</option>
+            <option value="op2">2</option>
+            <option value="op3">3</option>
+            </select>
+            <br><br>
+
+            <!-- Zona de texto grande -->
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" cols="50" rows="20"></textarea>
+            <br><br>
+
+            <!-- Elemento para elegir entre tres opciones (radio) -->
+            <p>Elige:</p>
+            <input type="radio" name="alternativa" value="a"> A<br>
+            <input type="radio" name="alternativa" value="b"> B<br>
+            <input type="radio" name="alternativa" value="c" checked> C (por defecto)<br>
+            <br><br>
+
+            <!-- Botones de enviar y borrar -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Formulario de Contacto</h1>
+
+    <form action="url_del_sevidor.php" method="post">
+
+    <label for="nombre">Nombre:</label>
+    <br>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <br>
+
+    <label for="apellidos">Apellidos:</label>
+    <br>
+    <input type="text" id="apellidos" name="apellidos" required>
+
+    <br>
+
+    <label for="contrasena">Contraseña:</label>
+    <br>
+    <input type="password" id="contrasena" name="contrasena" required>
+
+    <br>
+
+    <label for="dni">DNI:</label>
+    <br>
+    <input type="text" id="dni" name="dni" required>
+
+    <br>
+    <br>
+
+    <label>Sexo:</label>
+    <br>
+    <input type="radio" id="sexoHombre" name="sexo" value="hombre">
+    <label for="sexoHombre">Hombre</label>
+    <br>          
+    <input type="radio" id="sexoMujer" name="sexo" value="mujer">
+    <label for="sexoMujer">Mujer</label>
+
+    <br>
+    <br>
+
+    <label for="archivo">Incluir mi foto </label>
+    <input type="file" name="archivo" id="archivo">
+
+    <br>
+    <br>
+
+    <input type="checkbox" id="boletin" name="boletin" value="boletin">
+    <label for="boletin">Suscribirme al boletín de novedades</label>
+
+    <br>
+    <br>
+
+    <input type="submit" value="Guardar cambios">
+    <input type="reset" value="Borrar los datos introducidos">
+
+</body>
+</html>
