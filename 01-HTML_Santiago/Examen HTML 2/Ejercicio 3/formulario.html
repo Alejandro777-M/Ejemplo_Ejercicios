@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="procesar.php" method="post"> <!-- No envía datos por la URL (usa POST) -->
+        <fieldset>
+            <legend>Datos</legend>
+
+            <!-- Elemento desplegable con selección múltiple -->
+            <label for="opciones">Selecciona tus opciones:</label><br>
+            <select id="opciones" name="opciones[]" multiple required>
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+                <option value="opcion4">Opción 4</option>
+            </select>
+            <br><br>
+
+            <!-- Elegir entre dos opciones (solo una activa a la vez) -->
+            <label>Elige una opción:</label><br>
+            <input type="radio" id="op1" name="eleccion" value="si" required>
+            <label for="op1">Sí</label>
+            <input type="radio" id="op2" name="eleccion" value="no" required>
+            <label for="op2">No</label>
+            <br><br>
+
+            <!-- Botones -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar datos</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>

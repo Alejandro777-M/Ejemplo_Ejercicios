@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+
+    <form action="url_del_sevidor.php" method="post">
+    <fieldset>
+
+        <legend>Datos personales</legend>
+
+        <label for="provincia">Provincia:</label>
+        <br>
+        <select id="provincia" name="provincia" required placeholder= "-selecciona-" >
+            <option value="madrid">Madrid</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="valencia">Valencia</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="valladolid">Valladolid</option>
+        </select>
+        <br>
+        <br>
+        <label for="fechanacimiento">Fecha de nacimiento:</label>
+        <input type="number" id="fecha de nacimiento" name="fecha de nacimiento" min="1" max="31">
+        de
+        <label for="mes"></label>
+        <select id="provincia" name="provincia" required placeholder= "-selecciona-" >
+            <option value="enero">Enero</option>
+            <option value="febrero">Febrero</option>
+            <option value="marzo">Marzo</option>
+            <option value="abril">Abril</option>
+            <option value="mayo">Mayo</option>
+            <option value="junio">Junio</option>
+            <option value="julio">Julio</option>
+            <option value="agosto">agosto</option>
+            <option value="septiembre">Septiembre</option>
+            <option value="octubre">Octubre</option>
+            <option value="noviembre">Noviembre</option>
+            <option value="diciembre">Diciembre</option>
+        </select>
+        de
+        <label for="anio"></label>
+        <input type="number" id="anio" name="anio" min="1920" max="2025">
+    
+        <br>
+        <br>
+        <label for="temasinteres">Temas de interés: </label>
+        
+
+    </fieldset>
+    </form>
+
+</body>
+</html>
